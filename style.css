@@ -133,31 +133,28 @@ div.desc{
         width: 49.99999%;
         margin:6px 0;
     }
-    .clearfix{
-        background-image: url('bg1.jpg');
-      background-repeat: no-repeat;
-      background-attachment:fixed; 
-      background-size: cover;
     
-    } 
 }
 @media only screen and (max-width: 700px){
     .responsive1, .responsive2{
         width:100%;
     }
-    .clearfix{
-        background-image: url('bg1.jpg');
-      background-repeat: no-repeat;
-      background-attachment:fixed; 
-      background-size: cover;
-    
+    div.gallery img{
+        width:80%;
+        height:200px;
     }
+    div.gallery{
+        border: 1px solid #ccc;
+       }
+    div.gallery:hover{
+        border: 1px solid #777;
+    }
+   
 }
 
-.clearfix{
-    background-image: url('bg1.jpg');
-  background-repeat: no-repeat;
-  background-attachment:fixed; 
+body {
+    background: url('bg1.jpg') no-repeat center fixed;
+  
   background-size: cover;
 
 }
